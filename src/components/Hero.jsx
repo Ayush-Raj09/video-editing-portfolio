@@ -126,8 +126,8 @@ export default function Hero() {
           >
             {[
               { value: '2+', label: 'Years Experience' },
-              { value: 'YT', label: 'YouTube Editor' },
-              { value: '∞', label: 'Stories Told' },
+              { value: '11+', label: 'Featured Cuts' },
+              { value: '10.8K', label: 'Top Video Views' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="font-display font-bold text-3xl text-white">{stat.value}</div>
