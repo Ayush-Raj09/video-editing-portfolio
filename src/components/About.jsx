@@ -90,15 +90,25 @@ export default function About() {
               ))}
             </div>
 
-            {/* LinkedIn */}
-            <div className="mt-8">
+            {/* Social Links */}
+            <div className="mt-8 flex items-center gap-6 flex-wrap">
               <a
                 href="https://www.linkedin.com/in/ayushraj09/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 font-mono text-xs tracking-widest uppercase text-[#e8ff00] hover:text-white transition-colors group"
               >
-                Connect on LinkedIn
+                LinkedIn Profile
+                <span className="transition-transform group-hover:translate-x-1">→</span>
+              </a>
+
+              <a
+                href="https://www.instagram.com/asp3ct.09?lqvp=MXBodWpsd2djcmd6NA%3D%3D&utm_source=qr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 font-mono text-xs tracking-widest uppercase text-[#e8ff00] hover:text-white transition-colors group"
+              >
+                Instagram (@asp3ct.09)
                 <span className="transition-transform group-hover:translate-x-1">→</span>
               </a>
             </div>

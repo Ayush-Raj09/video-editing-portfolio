@@ -86,17 +86,13 @@ npm run build
 npm run preview
 ```
 
-## ⚙️ Customization Checklist
+## ⚙️ Configured Profile & Contact Links
 
-Before deploying, update these values:
-
-- [ ] **Email** — in `src/components/Contact.jsx` (replace `your@email.com`)
-- [ ] **Instagram handle** — in `src/components/Contact.jsx`
-- [ ] **Testimonial** — in `src/components/Testimonials.jsx` (replace placeholder with actual review)
-- [ ] **Additional projects** — in `src/data/projects.js` (add Drive video assets)
-- [ ] **Local videos/thumbnails** — place in `public/videos/` and `public/thumbnails/`
-- [ ] **OG image** — place at `public/og-image.jpg`
-- [ ] **Favicon** — replace `public/favicon.svg`
+- [x] **Email** — `ayushraj.work9@gmail.com`
+- [x] **LinkedIn** — `https://www.linkedin.com/in/ayushraj09/`
+- [x] **Instagram** — `https://www.instagram.com/asp3ct.09`
+- [x] **11 Real Projects Integrated** — 2 YouTube Long-Form + 7 Instagram Reels + 1 YouTube Short + 1 Transition Cut
+- [x] **Verified Video Testimonial** — Full video review & YouTube Studio analytics from SelfImprover (Ratish)
 
 ## 📦 Adding More Projects
 
