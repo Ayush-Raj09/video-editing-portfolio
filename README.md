@@ -1,129 +1,121 @@
-# Ayush Raj — Video Editor & Motion Designer Portfolio
+# 🎬 Ayush Raj | Video Editor & Motion Designer
 
-A premium, cinematic portfolio website for Ayush Raj — built to attract freelance clients, content creators, YouTube channels, agencies, and job/internship opportunities.
+A cinematic portfolio showcasing my video editing work, creative storytelling, YouTube videos, Instagram Reels, YouTube Shorts, and motion graphics.
 
-## 🎬 Live Preview
-
-> Run locally using the instructions below.
+**Turning raw footage into engaging visual stories.**
 
 ## ✨ Features
 
-- 🎨 Dark cinematic aesthetic with accent lighting
-- ⚡ Smooth scroll-triggered animations via Framer Motion
-- 📱 Fully responsive (mobile, tablet, desktop)
-- 🎥 YouTube video embeds with lazy loading
-- 🖱️ Custom cursor effect (desktop only)
-- 🔤 Editorial typography (Space Grotesk + Inter)
-- 📂 Filterable project portfolio grid
-- 🎭 Video modal/lightbox with YouTube playback
-- 🔁 Cinematic page loading animation
-- ♿ Accessible navigation and semantic HTML
-- 🔍 SEO meta tags + Open Graph
+- 🎥 Showcase of 11 video editing projects
+- 📱 Dedicated short-form video and Reels section
+- ▶️ YouTube video integration
+- ⭐ Client testimonial from SelfImprover420
+- 🎨 Premium dark cinematic design
+- ⚡ Smooth animations and transitions
+- 🖱️ Interactive project cards and video previews
+- 📱 Fully responsive design
+- 🔍 SEO and Open Graph optimization
 
 ## 🛠️ Tech Stack
 
-| Tool | Purpose |
-|------|---------|
-| React 19 | UI framework |
+| Technology | Purpose |
+|---|---|
+| React 19 | Frontend |
 | Vite 6 | Build tool |
-| Tailwind CSS 4 | Utility-first styling |
-| Framer Motion | Animations & transitions |
+| Tailwind CSS 4 | Styling |
+| Framer Motion | Animations |
 | Lucide React | Icons |
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```
+```text
 src/
-  components/
-    Navbar.jsx        — Sticky animated navigation
-    Hero.jsx          — Full-screen cinematic hero
-    Showreel.jsx      — Featured video section
-    ProjectGrid.jsx   — Portfolio grid with filters & modal
-    About.jsx         — Personal intro + timeline
-    Skills.jsx        — Animated skills cards
-    Collaboration.jsx — SelfImprover420 creator section
-    Testimonials.jsx  — Client review section
-    Contact.jsx       — Contact + social links
-    Footer.jsx        — Site footer
-  data/
-    projects.js       — Project data (videos, metadata)
-  App.jsx             — Root app + loader + cursor
-  main.jsx            — Entry point
-  index.css           — Global styles
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Showreel.jsx
+│   ├── ProjectGrid.jsx
+│   ├── About.jsx
+│   ├── Skills.jsx
+│   ├── Collaboration.jsx
+│   ├── Testimonials.jsx
+│   ├── Contact.jsx
+│   └── Footer.jsx
+├── data/
+│   └── projects.js
+├── App.jsx
+├── main.jsx
+└── index.css
+
 public/
-  videos/             — Local video assets (add your own)
-  thumbnails/         — Local thumbnail images
-  images/             — General images
+├── videos/
+├── thumbnails/
+└── images/
 ```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-
 - Node.js 18+
 - npm 9+
 
 ### Installation
 
 ```bash
-# Clone the repo (after pushing to GitHub)
-git clone https://github.com/YOUR_USERNAME/ayushraj-portfolio.git
-cd ayushraj-portfolio
+git clone https://github.com/Ayush-Raj09/video-editing-portfolio.git
 
-# Install dependencies
+cd video-editing-portfolio
+
 npm install
 
-# Start development server
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open `http://localhost:5173` in your browser.
 
-### Build for Production
+### Production Build
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## ⚙️ Configured Profile & Contact Links
+## 🎞️ Featured Work
 
-- [x] **Email** — `ayushraj.work9@gmail.com`
-- [x] **LinkedIn** — `https://www.linkedin.com/in/ayushraj09/`
-- [x] **Instagram** — `https://www.instagram.com/asp3ct.09`
-- [x] **11 Real Projects Integrated** — 2 YouTube Long-Form + 7 Instagram Reels + 1 YouTube Short + 1 Transition Cut
-- [x] **Verified Video Testimonial** — Full video review & YouTube Studio analytics from SelfImprover (Ratish)
+Explore my editing projects, including:
 
-## 📦 Adding More Projects
+- YouTube long-form videos
+- Instagram Reels
+- YouTube Shorts
+- Gaming edits
+- Motion graphics and transitions
 
-Edit `src/data/projects.js`:
+**Creator Collaboration:** [SelfImprover420](https://www.youtube.com/@SelfImprover420)
 
-```js
-{
-  id: 3,
-  title: "My Reel Edit",
-  category: "Instagram Reels / Shorts",
-  tags: ["Reels", "Short-Form"],
-  description: "...",
-  youtubeId: "VIDEO_ID",           // or use videoSrc for local files
-  thumbnail: "/thumbnails/reel.jpg", // local thumbnail
-  role: "Video Editing",
-  featured: false,
-}
-```
+## 👨‍💻 About Me
+
+I'm Ayush Raj, a Video Editor with 2+ years of experience creating engaging digital content. I specialize in YouTube editing, short-form content, storytelling, transitions, and visual effects.
+
+I'm passionate about transforming ideas into impactful visual experiences.
+
+## 📬 Connect With Me
+
+- **Email:** ayushraj.work9@gmail.com
+- **LinkedIn:** [Ayush Raj](https://www.linkedin.com/in/ayushraj09/)
+- **Instagram:** [@asp3ct.09](https://www.instagram.com/asp3ct.09/)
+- **GitHub:** [Ayush-Raj09](https://github.com/Ayush-Raj09)
 
 ## 🌐 Deployment
 
-Recommended platforms (free tiers available):
+Ready to deploy using:
 
-- **Vercel** — `vercel --prod` (zero config with Vite)
-- **Netlify** — drag-and-drop `dist/` folder
-- **GitHub Pages** — with `vite-plugin-gh-pages`
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
 
 ## 📄 License
 
-This project is personal portfolio work by Ayush Raj. All editing work and content belong to their respective creators.
+This project is a personal portfolio. Video content and creative assets belong to their respective owners and creators.
 
 ---
 
-Built with ♥ using React + Framer Motion
+**Built with creativity and ❤️ by Ayush Raj.**
