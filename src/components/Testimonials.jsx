@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Star, ExternalLink, Youtube } from 'lucide-react'
+import { Star, ExternalLink, Play } from 'lucide-react'
 
 export default function Testimonials() {
   const ref = useRef(null)
@@ -79,7 +79,7 @@ export default function Testimonials() {
                   rel="noopener noreferrer"
                   className="font-mono text-xs text-white/30 hover:text-[#e8ff00] transition-colors flex items-center gap-1 mt-0.5 group"
                 >
-                  <Youtube size={11} />
+                  <Play size={11} />
                   YouTube Creator
                   <ExternalLink size={10} className="opacity-0 group-hover:opacity-100 transition-opacity" />
                 </a>

@@ -1,10 +1,10 @@
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Mail, Linkedin, Instagram, Youtube, ArrowRight, Send } from 'lucide-react'
+import { Mail, Link2, Camera, Play, ArrowRight } from 'lucide-react'
 
 const socials = [
   {
-    icon: Linkedin,
+    icon: Link2,
     label: 'LinkedIn',
     handle: 'ayushraj09',
     href: 'https://www.linkedin.com/in/ayushraj09/',
@@ -19,7 +19,7 @@ const socials = [
     placeholder: true,
   },
   {
-    icon: Instagram,
+    icon: Camera,
     label: 'Instagram',
     handle: '@yourhandle',
     href: '#',
@@ -27,7 +27,7 @@ const socials = [
     placeholder: true,
   },
   {
-    icon: Youtube,
+    icon: Play,
     label: 'YouTube',
     handle: 'Portfolio & Collab',
     href: 'https://www.youtube.com/@SelfImprover420',
@@ -70,7 +70,7 @@ export default function Contact() {
           <h2 className="font-display font-bold text-white leading-tight mt-4" style={{ fontSize: 'clamp(36px, 6vw, 80px)' }}>
             Have a Project in Mind?<br />
             <span style={{ WebkitTextStroke: '2px rgba(255,255,255,0.2)', WebkitTextFillColor: 'transparent' }}>
-              Let's Create Something Great.
+              {"Let's Create Something Great."}
             </span>
           </h2>
           <p className="mt-6 text-white/40 max-w-xl mx-auto leading-relaxed">
@@ -139,7 +139,8 @@ export default function Contact() {
           className="mt-20 pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4"
         >
           <span className="font-mono text-xs text-white/20 tracking-wide">
-            📧 Update the email address in <code className="text-white/30">src/components/Contact.jsx</code> before going live.
+            📧 Update the email and social handles in{' '}
+            <code className="text-white/30">src/components/Contact.jsx</code> before going live.
           </span>
           <span className="font-mono text-xs text-white/20">
             Available for work · Based in India

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Heart } from 'lucide-react'
+import { Link2, Heart } from 'lucide-react'
 
 export default function Footer() {
   const handleNav = (href) => {
@@ -42,7 +42,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="w-9 h-9 border border-white/10 flex items-center justify-center hover:border-[#e8ff00]/40 hover:text-[#e8ff00] text-white/40 transition-all duration-300"
             >
-              <Linkedin size={15} />
+              <Link2 size={15} />
             </a>
           </div>
         </div>

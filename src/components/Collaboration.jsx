@@ -1,6 +1,6 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { ExternalLink, Youtube, Film, Users, TrendingUp } from 'lucide-react'
+import { ExternalLink, PlayCircle, Film, Users, TrendingUp } from 'lucide-react'
 
 const highlights = [
   {
@@ -16,10 +16,10 @@ const highlights = [
   {
     icon: Users,
     title: 'Audience Engagement',
-    desc: 'Editing choices that serve the creator's voice and help build a connection with their audience.',
+    desc: "Editing choices that serve the creator's voice and help build a connection with their audience.",
   },
   {
-    icon: Youtube,
+    icon: PlayCircle,
     title: 'Content Presentation',
     desc: 'Visual structure, B-roll integration, graphics, and titles that elevate the final presentation.',
   },
@@ -100,7 +100,7 @@ export default function Collaboration() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3 border border-white/15 text-white/60 hover:border-[#e8ff00] hover:text-[#e8ff00] transition-all duration-300 font-mono text-xs tracking-widest uppercase group"
             >
-              <Youtube size={15} />
+              <PlayCircle size={15} />
               Visit Channel
               <ExternalLink size={12} className="opacity-50 group-hover:opacity-100" />
             </a>
@@ -130,7 +130,7 @@ export default function Collaboration() {
                 </div>
                 <div className="ml-auto">
                   <div className="w-8 h-8 bg-red-600 rounded-sm flex items-center justify-center">
-                    <Youtube size={16} className="text-white" />
+                    <PlayCircle size={16} className="text-white" />
                   </div>
                 </div>
               </div>
