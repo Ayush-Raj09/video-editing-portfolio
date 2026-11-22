@@ -2,6 +2,8 @@ import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
 import { Star, ExternalLink, Play, Pause, Volume2, VolumeX, CheckCircle, TrendingUp, Sparkles } from 'lucide-react'
 
+const asset = (path) => `${import.meta.env.BASE_URL}${path.replace(/^\//, '')}`
+
 export default function Testimonials() {
   const ref = useRef(null)
   const videoRef = useRef(null)
@@ -77,7 +79,7 @@ export default function Testimonials() {
             <div className="relative aspect-[9/16] bg-black rounded-sm overflow-hidden border border-white/5 shadow-2xl">
               <video
                 ref={videoRef}
-                src="/videos/review_video.mp4"
+                src={asset('videos/review_video.mp4')}
                 playsInline
                 className="w-full h-full object-cover"
                 onEnded={() => setIsPlaying(false)}
@@ -251,7 +253,7 @@ export default function Testimonials() {
                   onClick={() => setShowProofModal(true)}
                 >
                   <img
-                    src="/images/ratish.jpg"
+                    src={asset('images/ratish.jpg')}
                     alt="YouTube Studio Analytics Proof"
                     className="w-full h-full object-cover group-hover/img:scale-105 transition-transform duration-300"
                   />
@@ -281,7 +283,7 @@ export default function Testimonials() {
           onClick={() => setShowProofModal(false)}
         >
           <div className="relative max-w-md w-full bg-black border border-white/20 p-2 rounded-sm" onClick={(e) => e.stopPropagation()}>
-            <img src="/images/ratish.jpg" alt="Full Analytics Screenshot" className="w-full rounded-sm" />
+            <img src={asset('images/ratish.jpg')} alt="Full Analytics Screenshot" className="w-full rounded-sm" />
             <div className="mt-3 p-2 flex items-center justify-between text-xs font-mono text-white/60">
               <span>YouTube Studio Verified Screenshot</span>
               <button onClick={() => setShowProofModal(false)} className="text-[#e8ff00] hover:text-white uppercase">Close</button>
